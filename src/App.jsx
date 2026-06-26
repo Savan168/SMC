@@ -438,7 +438,7 @@ function TFOverviewBar({ tfData }) {
 }
 
 // ─── MAIN APP ─────────────────────────────────────────────────────────────────
-export default function SMCDashboard() {
+export default function App() {
   // TF state
   const initTF = () => Object.fromEntries(TIMEFRAMES.map(tf => [tf, { ...DEFAULT_TF_STATE }]));
   const [tfData, setTfData] = useState(initTF);
